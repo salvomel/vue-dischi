@@ -17,7 +17,7 @@ header {
     background-color: $secondary-color;
     
    img {
-       height: 50px;
+       height: 55px;
        padding: 10px 20px;
    }
 }

@@ -1,7 +1,7 @@
 <template>
     <div class="col mb-4">
         <div class="card h-100 text-center">
-            <img :src="details.poster" class="card-img-top" alt="details.title">
+            <img :src="details.poster" class="card-img-top" :alt="details.title">
             <div class="card-body">
                 <h5 class="card-title">{{details.title}}</h5>
                 <div class="card-text">{{details.author}}</div>
@@ -25,7 +25,7 @@ export default {
 
     .card {
         background-color: $secondary-color;
-        padding: 20px;
+        padding: 18px;
 
         .card-body {
             color: $sub-text-color;
@@ -38,7 +38,7 @@ export default {
             }
 
             .card-text {
-                font-size: 17px;
+                font-size: 18px;
                 margin-top: 20px;
             }
         }  
